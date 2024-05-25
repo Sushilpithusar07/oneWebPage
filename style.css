@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.navbar {
+  height: 10vh;
+  background-color: rgb(21, 69, 228);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left {
+  padding: 0 4rem;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.nav-right {
+  padding: 0 4rem;
+}
+
+.nav-right ul {
+  display: flex;
+}
+
+.nav-right ul li {
+  list-style: none;
+}
+
+.nav-right ul li a {
+  padding: 0 1.2rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.hero {
+  height: 90vh;
+  width: 100vw;
+  background-image: url('https://images.pexels.com/photos/165537/pexels-photo-165537.jpeg');
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-content {
+  position: absolute;
+  margin: 4rem 5rem;
+  width: 50%;
+}
+
+.hero-content h1 {
+  font-size: 58px;
+  line-height: 1.1;
+}
+
+.hero-content p {
+  padding-bottom: 20px;
+}
+
+.hero-content a {
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 8px 15px;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: all .3s;
+}
+
+.hero-content a:hover {
+  background-color: #ffffffb6;
+  color: #000;
+}
+
+.icons {
+  margin-top: 40px;
+}
+
+.icons i {
+  margin: 0 1.9rem;
+  padding: 9px;
+  border-radius: 8px;
+  font-size: 20px;
+  border: 2px solid #ffff;
+  transition: all .3s;
+}
+
+.icons i:hover {
+  background-color: #ffffff52;
+  cursor: pointer;
+}
